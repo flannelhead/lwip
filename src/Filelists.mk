@@ -156,6 +156,8 @@ SNMPFILES=$(LWIPDIR)/apps/snmp/snmp_asn1.c \
 # HTTPDFILES: HTTP server
 HTTPDFILES=$(LWIPDIR)/apps/httpd/fs.c \
 	$(LWIPDIR)/apps/httpd/httpd.c
+	$(LWIPDIR)/apps/httpd/base64.c
+	$(LWIPDIR)/apps/httpd/sha1.c
 
 # MAKEFSDATA: MAKEFSDATA HTTP server host utility
 MAKEFSDATAFILES=$(LWIPDIR)/apps/httpd/makefsdata/makefsdata.c
